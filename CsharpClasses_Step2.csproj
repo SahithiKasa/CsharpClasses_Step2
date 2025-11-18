@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FieldBasics</StartupObject>
+    <StartupObject>FieldBasics_NonStatic</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
