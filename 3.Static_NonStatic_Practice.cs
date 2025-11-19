@@ -31,7 +31,7 @@ class Student
         Console.WriteLine("Marks:  ");
         foreach (int m in marks)
         {
-            Console.Write(m + "");
+            Console.Write(m + " ");
         }
         Console.WriteLine();
     }
