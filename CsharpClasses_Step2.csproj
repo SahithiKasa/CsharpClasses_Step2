@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program</StartupObject>
+    <StartupObject>Program1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,9 @@
     <Compile Include="1.FieldBasics_Static.cs" />
     <Compile Include="2.FieldBasics_NonStatic.cs" />
     <Compile Include="3.Static_NonStatic_Practice.cs" />
+    <Compile Include="4.PropertiesDemo.cs" />
+    <Compile Include="5.ClassArrayAndPublicDemos.cs" />
+    <Compile Include="6.ClassArrayDemoPractice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
