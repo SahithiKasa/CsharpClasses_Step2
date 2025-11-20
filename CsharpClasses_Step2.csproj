@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program2</StartupObject>
+    <StartupObject>ConstAndReadOnly</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.FieldBasics_Static.cs" />
+    <Compile Include="10.ConstantAndReadonly.cs" />
     <Compile Include="2.FieldBasics_NonStatic.cs" />
     <Compile Include="3.Static_NonStatic_Practice.cs" />
     <Compile Include="4.PropertiesDemo.cs" />
@@ -54,6 +55,10 @@
     <Compile Include="6.ClassArrayDemoPractice.cs" />
     <Compile Include="7.Constructors.cs" />
     <Compile Include="8.Constructors_Practice.cs" />
+    <Compile Include="9.NameSpaces\2.FinanceDepartment.cs" />
+    <Compile Include="9.NameSpaces\3.DevelopmentDepartment.cs" />
+    <Compile Include="9.NameSpaces\4.MainProgram.cs" />
+    <Compile Include="9.NameSpaces\HRDepartment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
