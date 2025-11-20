@@ -90,8 +90,13 @@ class PDFProgram
             FileLocation = @"C:/Downloads"
         };
 
-        PDFFile[] allCreditCardStatementFiles = new PDFFile[]
-        {
+        PDFFile[] allCreditCardStatementFiles = new PDFFile[]  //Here we use arrays to store the multiple items  of same type under 
+       {                                                            //one name  syntax:ClassName[] arrayname = new ClassName[]
+                                                                    //{
+                                                                    // new ClassName(),
+                                                                    //new ClassName(),
+                                                                    //new ClassName()
+                                                                      //};
             new PDFFile()
                 {
                     FileName = "CreditcardstatmentMarch.pdf",

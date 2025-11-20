@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PDFProgram</StartupObject>
+    <StartupObject>Program2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,8 @@
     <Compile Include="4.PropertiesDemo.cs" />
     <Compile Include="5.ClassArrayAndPublicDemos.cs" />
     <Compile Include="6.ClassArrayDemoPractice.cs" />
+    <Compile Include="7.Constructors.cs" />
+    <Compile Include="8.Constructors_Practice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
